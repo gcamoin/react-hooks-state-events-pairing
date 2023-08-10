@@ -18,6 +18,8 @@ return (
         <h1>{title}</h1>
         <p>{views} views || Uploaded {createdAt}</p>
         <button className="upvote-btn" onClick={handleUpVoteClick} >{upVotes} 👍</button><button className="downvote-btn" onClick={handleDownVoteClick}>{downVotes} 👎 </button>
+        <br></br>
+        
     </div>
 )
 
